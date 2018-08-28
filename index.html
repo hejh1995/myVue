@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+  <title>myVue</title>
+</head>
+<style>
+  #app {
+    text-align: center;
+  }
+</style>
+<body>
+  <div id="app">
+    <p>博文地址：https://segmentfault.com/a/1190000014274840</p>
+    <p>有详细的解析</p>
+    <form>
+      <input type="text"  v-model="number">
+      <button type="button" v-click="increment">增加</button>
+    </form>
+    <h3 v-bind="number"></h3>
+  </div>
+</body>
+<script src="app.js"></script>
